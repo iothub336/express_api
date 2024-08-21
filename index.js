@@ -11,7 +11,7 @@ app.get('/test', (req, res) => {
     const now = new Date();
     const dateTime = now.toLocaleString();
 
-    res.send(`Hello there!! The date and time is: ${dateTime}. Version: 1.2, Build Number: 3`);
+    res.send(`Hello there!! Today's date and time is: ${dateTime}. Version: 1.4, Build Number: 4`);
 });
 
 // Start the server
