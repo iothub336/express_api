@@ -17,5 +17,5 @@ app.get('/test', (req, res) => {
 // Start the server
 const PORT = 3001;
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port : ${PORT}`);
 });
